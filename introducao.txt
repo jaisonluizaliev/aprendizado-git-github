@@ -1,0 +1,9 @@
+bom neste curso eu aprendi, como criar repositorios com o git (local/remoto)
+
+como adicionar a pasta para ser comitado
+
+como comitar os arquivos 
+
+como fazer um push para o repositorio remoto 
+
+entre outros...

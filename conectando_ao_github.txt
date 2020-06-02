@@ -1,0 +1,37 @@
+github == git em forma remota!
+GITHUB / é um repositorio remoto! com ele há a possibilidade de voce tornar seus porjeto open souce / ou guarda-lo de forma privada fazendo com que voce tenha acesso onde quiser.
+
+conectar-se ao git hub e simples
+
+primeiro crie sua conta no site github.com
+
+após isto entre no site e clique em + e click em new repository
+
+nele voce vai colocar o nome do repositorio 
+
+escolher a privacidade se é public or private
+
+e ao fim clica no botao create repository
+
+apos isto aparecerá uma pagina com os codigos abaixo
+
+echo "# tema do project" >> README.md 
+//MUITO IMPORTANTE ESTE README É UM RESUMO DO SEU PROJETO 
+
+//ESTES COMANDO SÃO NO CASO DE VOCE CRIAR ELE PRIMEIRO DE FORMA REMOTA E DEPOSI PASSAR PARA SEU USER LOCAL {
+    git init
+    git add README.md
+    git commit -m "first commit"
+}
+
+//ESTE FINALMENTE É A FORMA COMO VOCE UPA SEU PROJETO AO GIT-HUB
+git remote add origin https://github.com/jaisonluizaliev/sddsdd.git 
+//ESTE LINK SERA GERADO AUTOMATICAMENTE A CRIAR O SEU REPOSITORIO APOS EXECUTAR ESTE COMANDO ELE IRA PEDIR SEU NOME DE USUARIO E SENHA <user.email> && <user.password> após colocar de enter
+
+git push -u origin master 
+//ESTE COMANDO IRA SUBIR SEU PROJETO AO GITHUB COMO FALAMOS NA EXPLICAÇÃO DOS COMANDOS. ESTES COMANDOS VÃO SER USADOS SOMENTE NA PRIMEIRA VEZ, POIS APOŚ CONFIGURADOS ESTE SERA SEU REPOSITORIO REMOTO SALVO!. 
+
+APÓS ISTO TODOS SEUS 'PUSHS' SERÃO COM O COMANDO: git push origin <nome da branch>
+
+OUTRO COMANDO BEM IMPORTANTE É O 
+git pull ELE é inverso ao push trazendo seu repositorio remoto ao seu local!

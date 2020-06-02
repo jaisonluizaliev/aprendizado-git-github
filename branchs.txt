@@ -1,0 +1,28 @@
+branchs / ramos / braços / raizes / caminhos etc são muitas definições
+
+mais de uma forma objetiva brancs são como um forma de voce criar versões do seu codigo
+
+como dito no arquivo anterior o git init traz por padrão a branch master
+
+ao cria-la voce tem um repositorio e um ramo neste ramo como numa arvore pode ter varias 'folhas'
+
+ou seja voce pode criar varios arquivos que estarão disponiveis apenas naquele ramo 
+
+desta forma criando uma certa 'segurança' ao qual aquele projeto esta seguro
+
+comandos branchs
+
+git branch - mostra as branchs do seu repositorio
+
+git branch <nome> - cria uma nova branch com o nome que voce quiser
+
+git checkout <nomedabranch> - muda a branch que voce estava para a que voce selecionou
+
+git checkout -b <nome> basicamente e uma mistura dos dois comandos anteriores, voce cria uma nova branch e ja a seleciona
+
+git push origin <nomebranch> adiciona a branch que voce selecionou para o repositorio remoto
+
+!important
+git merge basicamente este comando une uma branch a outra / clona a branch atual fazendo ela ter os mesmo arquivos que a selecionada
+comando 
+git merge <nomedabranch> 

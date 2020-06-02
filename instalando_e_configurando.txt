@@ -1,0 +1,5 @@
+para instalar o git, eu fiz pelo linux/kali distro debian
+
+instalei atraves do npm (node package mananger)
+
+e o configurei com o comando git config --global user.name && user.email.

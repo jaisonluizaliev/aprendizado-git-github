@@ -1,0 +1,19 @@
+git init - inicializa o repositorio remoto criando subpastas ocultas entendidadas pelo git
+e também criando a branch master como branch padrão.
+
+git add . / <nomearquivo> - adiciona tudo ou o arquivo para o modo chamado staged! ou melhor adiciona para preparar o commit
+
+git commit -m "descrição commit" - faz com que seja commitado tudo que estava nas pasta staged.
+
+git status - verifica como esta o repositorio local git (o que precisa commit, add, push etc)
+
+git diff serve para visualizar diferenças se houver entre arquivos commitados
+
+git log - (mostra todos os commits feitos no ramo atual!)
+
+git remote add origin <link remoto> - adiciona o repositorio local a um repositorio remoto
+obs. este link de repositorio é adiquirido na sua conta do github ao criar um repositorio remoto
+
+git push -u origin <nomeBranch> - "sobe" o projeto local em forma de up to date para o repositorio remoto obs a opção -u é usada apenas no primeiro push ao repo remoto apos isso usamos o comando <git push origin <nomeBranch>>
+
+git merge serve para unir duas branchs ou unir a branch secundaria a master.
